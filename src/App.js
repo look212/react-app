@@ -1,11 +1,14 @@
 import * as React from 'react';
+import CssBaseline from '@mui/material/CssBaseline';
 import BaseTemplate from './Components/BaseTemplate'
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
+      <CssBaseline />
+      {/* The rest of your application */}
       <BaseTemplate></BaseTemplate>
-    </div>
+    </React.Fragment>
   );
 }
 

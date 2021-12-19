@@ -1,4 +1,10 @@
 import * as React from 'react';
+import {Container} from "@mui/material";
+
 export default function BaseTemplate() {
-  return <div>Hello, world!</div>
+  return (
+    <Container>
+      Hi!
+    </Container>
+  );
 }
